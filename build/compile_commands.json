@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/Aymeric Barbot/Documents/PlatformIO/Projects/humidex/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/unity.dir/includes_C.rsp -g -std=c11 -Waddress -Waggregate-return -Wformat-nonliteral -Wformat-security -Wformat -Winit-self -Wmissing-declarations -Wmissing-include-dirs -Wno-multichar -Wno-parentheses -Wno-type-limits -Wno-unused-parameter -Wunreachable-code -Wwrite-strings -Wpointer-arith -Werror -Wall -o CMakeFiles\\unity.dir\\src\\unity.c.obj -c \"C:\\Users\\Aymeric Barbot\\Documents\\PlatformIO\\Projects\\humidex\\.pio\\libdeps\\esp32dev\\Unity\\src\\unity.c\"",
+  "file": "C:/Users/Aymeric Barbot/Documents/PlatformIO/Projects/humidex/.pio/libdeps/esp32dev/Unity/src/unity.c",
+  "output": "CMakeFiles/unity.dir/src/unity.c.obj"
+}
+]
