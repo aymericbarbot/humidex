@@ -89,7 +89,7 @@ void messageHandler(char* topic, byte* payload, unsigned int length)
 void setup()
 {
     Serial.begin(115200);
-    Serial.println("ATH20 DEMO");
+    connectAWS();
     ATH.begin();
 }
 
