@@ -67,7 +67,7 @@ void connectAWS()
 void publishMessage()
 {
   StaticJsonDocument<200> doc;
-  doc["humidity"] = humi;
+  doc["humidity"] = humi*100;
   doc["temperature"] = temp;
   char jsonBuffer[512];
   serializeJson(doc, jsonBuffer); // print to client
@@ -95,7 +95,6 @@ void setup()
 
 void loop()
 {
-    float humi, temp;
     
     int ret = ATH.getSensor(&humi, &temp);
 
